@@ -1,18 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Results from './Results';
 
-import { Container } from './styles';
+import Scanner from './Scanner';
 
 function Main() {
+  // eslint-disable-next-line
+  const [isbn, setIsbn] = useState('');
+
   return (
-    <Container>
-      <img
-        src="https://devsamurai-materials.s3.amazonaws.com/templates/dev-samurai-white.png"
-        height="256"
-        alt="Dev Samurai"
-      />
-      <h1>Fala Samurai!</h1>
-      <p>Esse é o template básico da Dev Samurai para React.</p>
-    </Container>
+    <>
+      <Scanner onScan={setIsbn} />
+      {isbn && <Results isbn={isbn} />}
+    </>
   );
 }
 

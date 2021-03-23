@@ -1,0 +1,33 @@
+{
+  "books": [
+    {
+      "id": "9788576082675",
+      "isbn": "9788576082675",
+      "name": "Código Limpo - Habilidades Práticas do Agile Software",
+      "coverUrl": "https://devsamurai-materials.s3.amazonaws.com/samurai-books/clean-code.jpg",
+      "rating": 4,
+      "promotionalPrice": 39.9,
+      "price": 99.9,
+      "score": 4.0,
+      "scores": [
+        { "name": "Tradução", "value": 3.5 },
+        { "name": "Códigos", "value": 4 },
+        { "name": "Comunidade", "value": 5 }
+      ]
+    },
+    {
+      "id": "9788580410259",
+      "isbn": "9788580410259",
+      "name": "A Cabana",
+      "coverUrl": "https://images-na.ssl-images-amazon.com/images/I/91eXvRufnFL.jpg",
+      "rating": 4.6,
+      "promotionalPrice": 19.9,
+      "price": 69.9,
+      "score": 4.9,
+      "scores": [
+        { "name": "Tradução", "value": 3.5 },
+        { "name": "História", "value": 5 }
+      ]
+    }
+  ]
+}
