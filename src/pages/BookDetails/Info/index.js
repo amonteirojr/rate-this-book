@@ -10,9 +10,6 @@ import { Cover, Container } from './styles';
 export default function Info({ book }) {
   return (
     <Container>
-      <Link className="go-back" to="/">
-        <MdArrowBack size={32} color="#2ecc71" />
-      </Link>
       <Cover src={book.coverUrl} />
       <h4 className="name">{book.name}</h4>
       <div className="book-rating">

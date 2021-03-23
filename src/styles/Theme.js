@@ -37,7 +37,7 @@ const theme = {
     danger: '#f37272',
     light: '#ecf0f1',
     dark: '#233240',
-    background: '#3b3a3e',
+    background: '#ffffff',
     text: '#3b3a3e',
     link: '#3498db',
 

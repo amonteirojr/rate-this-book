@@ -8,6 +8,9 @@ import { Container } from './styles';
 import { getBook } from '../../services/books';
 import GeneralScore from './GeneralScore';
 import Scores from './Scores';
+import ExtraInfo from './ExtraInfo';
+import { MdArrowBack } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 export default function BookDetails() {
   const [book, setBook] = useState();
@@ -28,9 +31,13 @@ export default function BookDetails() {
     <>
       {book && (
         <Container>
+          <Link className="go-back" to="/">
+            <MdArrowBack size={32} color="#2ecc71" />
+          </Link>
           <Info book={book} />
           <GeneralScore book={book} />
           <Scores book={book} />
+          <ExtraInfo book={book} />
         </Container>
       )}
     </>

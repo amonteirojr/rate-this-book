@@ -13,6 +13,12 @@
         { "name": "Tradução", "value": 3.5 },
         { "name": "Códigos", "value": 4 },
         { "name": "Comunidade", "value": 5 }
+      ],
+      "extras": [
+        {
+          "title": "Resumo",
+          "value": "Dedicado aos desenvolvedores que buscam evoluir seu código."
+        }
       ]
     },
     {
@@ -27,6 +33,16 @@
       "scores": [
         { "name": "Tradução", "value": 3.5 },
         { "name": "História", "value": 5 }
+      ],
+      "extras": [
+        {
+          "title": "Resumo",
+          "value": "Publicado nos Estados Unidos, A Cabana se revelou um desses livros raros que, a partir do entusiasmo e da indicação dos leitores, se torna um fenômeno de público."
+        },
+        {
+          "title": "Fato",
+          "value": "Primeiro lugar na lista dos mais vendidos do The New York Times"
+        }
       ]
     }
   ]
